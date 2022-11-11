@@ -3,7 +3,6 @@
 //  HelloWorld
 //
 //  Created by Wooyoung on 2022/11/11.
-//  First app.
 //
 
 import UIKit

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "6065D9FE-1B51-4B69-BD02-AF9390FBC5B6"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.AddressBreakpoint">
+         <BreakpointContent
+            uuid = "157EB357-3E2C-4BFF-8C56-4C7DDEE7F217"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "*0x1037eb9e1">
+            <Locations>
+               <Location
+                  uuid = "157EB357-3E2C-4BFF-8C56-4C7DDEE7F217 - c5946aed32f0772e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static __C.UIApplicationDelegate.main() -&gt; ()"
+                  moduleName = "TapTouch"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wooyoung/Desktop/swift/TapTouch/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "1">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

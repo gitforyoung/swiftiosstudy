@@ -4,6 +4,7 @@
 - (강의) [Sololearn - Swift 4](https://www.sololearn.com/learning/1075)
 - (블로그) [Pingu님 블로그 - class와 structure의 차이](https://icksw.tistory.com/271)
 - (블로그) [김준오님 블로그 - ARC란](https://velog.io/@kjo1130/ARC%EB%9E%80)
+- (블로그) [소들님 블로그 - 메모리 구조](https://babbab2.tistory.com/25)
 - (블로그) [Pingu님 블로그 - Combine](https://icksw.tistory.com/271)
 
 ## CS 학습 목록

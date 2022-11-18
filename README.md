@@ -8,6 +8,7 @@
 - (블로그) [Pingu님 블로그 - Combine](https://icksw.tistory.com/271)
 - (블로그) [해리님 블로그 - Property Wrapper](https://medium.com/harrythegreat/swift-properywrapper를-이용한-값처리-a8ef0d87e8e)
 - (블로그) [Weekoding님 블로그 - DispatchQueue와 스레드 개념](https://weekoding.tistory.com/8)
+- (블로그) [Coden님 블로그 - DispatchQueue.main vs RunLoop.main](https://velog.io/@ictechgy/Combine-DispatchQueue.main-VS-RunLoop.main)
 
 ## CS 학습 목록
 - (도서) [혼자 공부하는 컴퓨터구조 + 운영체제](http://www.yes24.com/Product/Goods/111378840)

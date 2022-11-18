@@ -15,10 +15,25 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NpN-RC-aSg">
+                                <rect key="frame" x="196.66666666666666" y="426" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="NpN-RC-aSg" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="6J5-kE-0J4"/>
+                            <constraint firstItem="NpN-RC-aSg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mBA-fd-7KP"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Debounce" id="Z4y-15-SUX"/>
+                    <connections>
+                        <outlet property="lblText" destination="NpN-RC-aSg" id="GNw-Bc-kcQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

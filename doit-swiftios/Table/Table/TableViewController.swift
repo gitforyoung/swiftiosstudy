@@ -8,8 +8,8 @@
 import UIKit
 
 // 외부 변수로 선언하여 다른 모든 클래스에서 사용할 수 있도록 한다.
-var items = ["책 구매", "철수와 약속", "스터디 준비하기"]
-var itemImageFiles = ["cart.png", "clock.png", "pencil.png"]
+var items = ["책 구매", "철수와 약속", "스터디 준비하기", "책 구매", "철수와 약속", "스터디 준비하기","책 구매", "철수와 약속", "스터디 준비하기","책 구매", "철수와 약속", "스터디 준비하기","책 구매", "철수와 약속", "스터디 준비하기"]
+var itemImageFiles = ["cart.png", "clock.png", "pencil.png","cart.png", "clock.png", "pencil.png","cart.png", "clock.png", "pencil.png","cart.png", "clock.png", "pencil.png","cart.png", "clock.png", "pencil.png"]
 
 class TableViewController: UITableViewController {
 
@@ -51,6 +51,10 @@ class TableViewController: UITableViewController {
         // 셀의 행 번호 정보를 이용해 그에 맞는 아이템과 이미지를 대입한다.
         cell.textLabel?.text = items[(indexPath as NSIndexPath).row]
         cell.imageView?.image = UIImage(named: itemImageFiles[(indexPath as NSIndexPath).row])
+        
+        if indexPath.row == 1 {
+            cell.backgroundColor = .red
+        }
 
         return cell
     }

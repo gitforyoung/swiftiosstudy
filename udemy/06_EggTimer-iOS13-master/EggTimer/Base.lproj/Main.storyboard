@@ -123,7 +123,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nJN-th-c5K" userLabel="Timer View">
                                         <rect key="frame" x="0.0" y="404.5" width="288" height="163.5"/>
                                         <subviews>
-                                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progressViewStyle="bar" progress="0.10000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="V8L-Hb-zEJ">
+                                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progressViewStyle="bar" translatesAutoresizingMaskIntoConstraints="NO" id="V8L-Hb-zEJ">
                                                 <rect key="frame" x="0.0" y="79.5" width="288" height="6"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="5" id="oDn-TR-bS6"/>
